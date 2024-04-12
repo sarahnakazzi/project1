@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: block;
+    width: 320px;
+    background-color: antiquewhite;
+    border: 1px solid rgb(41, 28, 28);
+}
+
+.answer{
+    border: none;
+    width: 100%;
+    height: 5rem;
+    background-color: #333;
+    color: #d7ff5f;
+    font-size: 60px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.clear, .equal{
+    width: 160px;
+    background-color: #585858;
+    cursor: pointer;
+}
+
+.clear:hover, .equal:hover{
+    background-color: blueviolet;
+}
+
+.clear:active, .equal:active{
+    background-color: darkmagenta;
+}
+
+.buttons {
+    width: 80px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: #ddd;
+}
+
+.button:active {
+    background-color: #bbb;
+}
+
+input {
+    margin-right: -4px;
+    height: 50px;
+    border: 1px solid #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
