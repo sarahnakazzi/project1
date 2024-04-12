@@ -1,19 +1,4 @@
-function addToDisplay(value) {
-    document.getElementById("display").value += value;
-}
 
-function clearDisplay() {
-    document.getElementById("display").value = "";
-}
-
-function calculate(){
-    let expression = 
-    document.getElementById("display").value;
-    let result = eval(expression);
-    document.getElementById("display").value = result;
-}
-
-//this is javascript function for new calculator
 
 function display(value){
     document.getElementById("result").value += value;
